@@ -2,7 +2,7 @@
   "name": "language-knitr",
   "version": "0.0.0",
   "description": "atom.io support for knitr",
-  "repository": "https://github.com/atom/language-knitr",
+  "repository": "https://github.com/christophergandrud/language-knitr",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
