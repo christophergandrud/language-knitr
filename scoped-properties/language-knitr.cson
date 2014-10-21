@@ -1,0 +1,4 @@
+'.text.knitr':
+  'editor':
+    'commentStart': '% '
+    'commentEnd': ''
