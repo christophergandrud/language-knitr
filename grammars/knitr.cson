@@ -51,7 +51,7 @@
         'name': 'punctuation.section.embedded.begin.knitr'
       '2':
         'name': 'comment.line.other.knitr'
-    'contentName': 'source.r.embedded.knitr'
+    'contentName': 'source.embedded.r'
     'end': '^(@)(.*)$'
     'endCaptures':
       '1':
@@ -80,7 +80,7 @@
         'name': 'punctuation.definition.arguments.begin.latex'
       '2':
         'name': 'punctuation.definition.arguments.end.latex'
-    'contentName': 'source.r.embedded.knitr'
+    'contentName': 'source.embedded.r'
     'end': '^\\\\end(\\{)Scode(\\})'
     'name': 'meta.block.source.r'
     'patterns': [
@@ -98,7 +98,8 @@
     'endCaptures':
       '1':
         'name': 'punctuation.definition.arguments.end.latex'
-    'name': 'source.r.embedded.knitr'
+    'contentName': 'source.embedded.r'
+    'name': 'meta.block.source.r'
     'patterns': [
       {
         'include': 'source.r'
