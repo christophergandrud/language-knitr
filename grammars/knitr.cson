@@ -98,7 +98,8 @@
     'endCaptures':
       '1':
         'name': 'punctuation.definition.arguments.end.latex'
-    'name': 'source.embedded.r'
+    'contentName': 'source.embedded.r'
+    'name': 'meta.block.source.r'
     'patterns': [
       {
         'include': 'source.r'
