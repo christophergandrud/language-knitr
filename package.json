@@ -1,6 +1,6 @@
 {
   "name": "language-knitr",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "atom.io support for knitr",
   "repository": "https://github.com/christophergandrud/language-knitr",
   "license": "MIT",
