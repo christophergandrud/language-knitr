@@ -5,9 +5,9 @@
 
 ## About
 
-Currently this package is a direct port of
+Currently this package is a port of
 [Chris Fonnesbeck](https://github.com/fonnesbeck)'s [knitr TextMate
-bundle](https://github.com/fonnesbeck/knitr.tmbundle).
+bundle](https://github.com/fonnesbeck/knitr.tmbundle) with minor modifications.
 
 ## Capabilities
 
