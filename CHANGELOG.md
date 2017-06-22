@@ -1,3 +1,7 @@
+# 0.4
+
+- Support for indented regions. Thanks to @mathuin in pull request 6.
+
 # 0.3
 
 - Adhere to naming convention for embedded grammars. Enables Hydrogen. pr/#4. 
