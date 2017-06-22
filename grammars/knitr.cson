@@ -4,12 +4,12 @@
   'snw'
   'rnw'
 ]
-'foldingStartMarker': '^<<(.?*)>>=|\\\\begin\\{.*\\}'
-'foldingStopMarker': '^@(.?*)$|\\\\end\\{.*\\}'
+'foldingStartMarker': '^\\s*<<(.?*)>>=|\\\\begin\\{.*\\}'
+'foldingStopMarker': '^\\s*@(.?*)$|\\\\end\\{.*\\}'
 'name': 'Knitr'
 'patterns': [
   {
-    'begin': '^(<<)'
+    'begin': '^\\s*(<<)'
     'beginCaptures':
       '1':
         'name': 'punctuation.definition.parameters.begin.knitr'
@@ -52,7 +52,7 @@
       '2':
         'name': 'comment.line.other.knitr'
     'contentName': 'source.embedded.r'
-    'end': '^(@)(.*)$'
+    'end': '^\\s*(@)(.*)$'
     'endCaptures':
       '1':
         'name': 'punctuation.section.embedded.end.knitr'
